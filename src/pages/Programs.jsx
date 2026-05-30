@@ -84,7 +84,6 @@ export default function Programs({ navigate }) {
           <motion.div 
             variants={cardVariants}
             key={program.id} 
-
             className="group relative h-[380px] md:h-[450px] overflow-hidden border border-white/10 bg-brand-surface cursor-pointer hover:border-brand-lime/50 transition-colors duration-500"
           >
             {/* Background Image Layer */}
@@ -92,7 +91,8 @@ export default function Programs({ navigate }) {
               <img 
                 src={program.image} 
                 alt={program.title}
-                className="w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
+
+                className="w-full h-full object-cover grayscale-0 opacity-80 md:grayscale md:opacity-40 md:group-hover:grayscale-0 md:group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-brand-bg/80 to-transparent group-hover:via-brand-bg/60 transition-colors duration-500" />
             </div>

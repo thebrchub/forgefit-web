@@ -16,7 +16,7 @@ export default function Footer({ navigate }) {
                <img 
                  src="/logo1.svg" 
                  alt="ForgeFit Logo" 
-                 className="h-8 md:h-30 w-auto object-contain" 
+                 className="h-20 md:h-30 w-auto object-contain" 
                />
              </div>
              <p className="text-white/40 text-sm font-sans leading-relaxed">
